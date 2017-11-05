@@ -31,7 +31,6 @@ struct Book {
 }
 
 class DataManager {
-    
     static let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
     
     /**
@@ -75,7 +74,6 @@ class DataManager {
      * Create book objects array from
      */
     private class func process(_ urls: [URL], books:inout [Book]){
-        
         for fileURL in urls {
             
             //if file already in list, skip to next one

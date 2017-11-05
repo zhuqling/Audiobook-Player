@@ -55,7 +55,6 @@ extension UINavigationController {
 }
 
 extension Notification.Name {
-    
     public struct AudiobookPlayer {
         public static let openURL = Notification.Name(rawValue: "com.tortugapower.audiobookplayer.openurl")
         public static let requestReview = Notification.Name(rawValue: "com.tortugapower.audiobookplayer.requestreview")

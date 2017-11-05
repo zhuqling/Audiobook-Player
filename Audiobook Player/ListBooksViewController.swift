@@ -133,6 +133,8 @@ class ListBooksViewController: UIViewController, UIGestureRecognizerDelegate {
             self.emptyListContainerView.isHidden = !self.bookArray.isEmpty
             self.tableView.reloadData()
         }
+        
+        RealmManger.addBooksToRealm()
     }
     
     /**
