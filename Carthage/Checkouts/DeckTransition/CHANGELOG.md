@@ -1,12 +1,20 @@
 ## Changelog
 
+## 1.4.1 Release notes (9/11/2017)
+
+- Added [documentation](https://harshilshah.github.io/DeckTransition/), generated using [Jazzy](https://github.com/realm/jazzy)
+- Fixed an animation glitch when presenting a modal with the push style
+
 ## 1.4.0 Release notes (21/10/2017)
 
+- Updated language requirement to Swift 4
 - Updated animations to work much better when presenting mutliple view controllers using DeckTransition
 - Fixes an issue where the appearance method calls were sometimes unbalanced
 
 ## 1.3.4 Release notes (13/10/2017)
 ----
+
+This is the last version of this framework to support Swift 3.x. Further development will be done on Swift 4.x
 
 - Fixed an issue where rotation would break the rounded corners
 
